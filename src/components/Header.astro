@@ -1,0 +1,80 @@
+---
+import logo from '@/assets/logo.svg';
+import LanguagePicker from '@/components/LanguagePicker.astro';
+import {
+	getLangFromUrl,
+	useTranslations,
+	useTranslatedPath,
+} from '@/i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+---
+
+<header class='sticky top-0 bg-[#1f1f1f] text-white z-50 font-medium border-b border-b-gray-700'>
+	<nav>
+		<ul class='flex relative section p-5 gap-5 justify-center'>
+			<!-- Navegación Izquierda -->
+			<ul class='flex gap-6 basis-0 sm:grow justify-end'>
+				<li>
+					<a class='opacity-85 hover:opacity-100 transition-colors' href={translatePath('/')}>
+						{t('nav.home')}
+					</a>
+				</li>
+				<li>
+					<a class='opacity-85 hover:opacity-100 transition-colors' href={translatePath('/about')}>
+						{t('nav.about')}
+					</a>
+				</li>
+			</ul>
+
+			<!-- Logo -->
+			<li class='header-logo hidden sm:block'>
+				<a class='opacity-85 hover:opacity-100 transition-colors' href={translatePath('/')}>
+					<img src={logo.src} alt='Logo' class='w-10' />
+				</a>
+			</li>
+
+			<!-- Navegación Derecha -->
+			<ul class='flex gap-6 basis-0 grow'>
+				<li>
+					<a class='opacity-85 hover:opacity-100 transition-colors' href={translatePath('/projects')}>
+						{t('nav.projects')}
+					</a>
+				</li>
+				<li>
+					<a class='opacity-85 hover:opacity-100 transition-colors' href={translatePath('/contact')}>
+						{t('nav.contact')}
+					</a>
+				</li>
+			</ul>
+
+			<!-- LanguagePicker and moon icon -->
+			<li class='absolute right-0 flex items-center gap-4'>
+				<a href="https://code-new-intro.vercel.app" class="opacity-70 hover:opacity-100 transition-opacity">
+					<img src="/projects/sun.png" alt="Moon Icon" class="w-6 h-6" />
+				</a>
+				<LanguagePicker />
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<style>
+	@keyframes show {
+		0% {
+			width: 0px;
+		}
+		100% {
+			width: 40px;
+		}
+	}
+
+	.header-logo {
+		view-timeline: --logoHeader block;
+		animation-timeline: --logoHeader;
+		animation-name: show;
+		animation-range: entry 45% cover 3%;
+	}
+</style>
