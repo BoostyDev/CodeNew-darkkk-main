@@ -77,4 +77,26 @@ const translatePath = useTranslatedPath(lang);
 		animation-name: show;
 		animation-range: entry 45% cover 3%;
 	}
+	 /* Ajustes para móviles */
+	 @media (max-width: 640px) {
+    nav ul {
+      flex-direction: column; /* Cambiar a diseño vertical en pantallas pequeñas */
+      align-items: center;
+    }
+
+    .absolute.right-0 {
+      position: static; /* Hacerlo parte del flujo normal */
+      order: 1; /* Moverlo al inicio o final según necesidad */
+      margin-top: 0.5rem; /* Añadir espacio entre los elementos */
+    }
+
+    .header-logo {
+      order: 0; /* Ubicar el logo al principio en móvil */
+      margin-bottom: 0.5rem; /* Espaciado adicional */
+    }
+
+    .header-logo img {
+      width: 8rem; /* Ajustar tamaño del logo */
+    }
+  }
 </style>

@@ -10,11 +10,12 @@ export const projects = {
 	en: [
 		{
 			tag: 'Web Development & Rebranding',
-			name: 'Trattoria Enoteca Luca',
+			name: 'Luca Meerbusch',
 			description:
 				'We like to laugh and build strong relationships with the people that we work with.',
-			img: '/projects/trattoria.webp',
-			link: 'https://github.com/',
+			img: '/projects/italian.png',
+			link: 'https://luca-meerbusch.de',
+			gallery: true
 		},
 		{
 			tag: 'E-commerce and Management',
@@ -23,7 +24,7 @@ export const projects = {
 				'We are quick to respond to messages and we are there when you need us most.',
 			img: '/projects/commerce.webp',
 			link: 'https://github.com/',
-			gallery: true
+			
 		},
 		{
 			tag: 'Web Development',
@@ -46,12 +47,16 @@ export const projects = {
 	],
 	de: [
 		{
+			
+			name: 'Luca Meerbusch',
+			img: '/projects/italian.png',
+			link: 'https://luca-meerbusch.de',
+			gallery: true,
 			tag: 'Webentwicklung und Rebranding',
-			name: 'Trattoria Enoteca Luca',
 			description:
 				'Wir lachen gerne und bauen starke Beziehungen zu den Menschen auf, mit denen wir arbeiten.',
-			img: '/projects/trattoria.webp',
-			link: 'https://github.com/',
+			
+			
 		},
 		{
 			tag: 'E-Commerce und Management',
@@ -78,7 +83,7 @@ export const projects = {
 				'Wir lachen gerne und bauen starke Beziehungen zu den Menschen auf, mit denen wir arbeiten.',
 			img: '/projects/skyshot.webp',
 			link: 'https://github.com/',
-			gallery: true
+			
 		},
 	],
 };

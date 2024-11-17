@@ -27,14 +27,12 @@ import arrowIcon from '@/assets/icons/arrow-big.svg';
 			{t('home.description')}
 		</p>
 		<a
-			href={translatePath('/contact')}
-			class='text-lg underline mt-4 inline-block text-indigo-300 group hover:!-translate-x-1 transition-transform'>
+		href={translatePath('/contact')}
+		class='appear'>
+		<button
+			class='px-8 py-2 rounded-full transition-colors hover:bg-white font-medium border border-indigo-600 outline-1 bg-indigo-600 text-white hover:text-slate-900'>
 			{t('home.meeting')}
-			<img
-				src={arrowIcon.src}
-				alt='Arrow Icon'
-				class='w-7 absolute right-0 group-hover:opacity-100 opacity-0 top-0 bottom-0 my-auto group-hover:translate-x-8 transition-all'
-			/>
+		</button>
 		</a>
 	</div>
 	<Logo3D />

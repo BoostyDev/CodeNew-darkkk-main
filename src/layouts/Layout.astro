@@ -104,6 +104,54 @@ const description = {
 			::-webkit-scrollbar-thumb:hover {
 				background: #454747;
 			}
+			
+			<style is:global>
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Previene el scroll horizontal */
+  }
+
+  #logo3d {
+    width: 100%;
+    height: auto; /* Permitir que el contenedor ajuste su altura dinámicamente */
+    display: flex; /* Usar flexbox para centrar contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    position: relative; /* Asegurar que el posicionamiento sea relativo al contenedor */
+    overflow: hidden; /* Evitar contenido fuera de límites */
+  }
+
+  canvas {
+    max-width: 100%; /* Evitar que el canvas exceda el ancho del contenedor */
+    max-height: 100%; /* Evitar que el canvas exceda el alto del contenedor */
+    width: 100%; /* Asegurar que ocupe todo el ancho */
+    height: 500px; /* Asegurar una altura fija */
+    margin: 0 auto; /* Centrar automáticamente */
+    z-index: 100; /* Asegurar que esté por encima de otros elementos */
+    position: relative;
+  }
+
+  @keyframes show {
+    0% {
+      scale: 100%;
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      scale: 14%;
+      opacity: 0;
+    }
+  }
+
+  canvas {
+    animation-timeline: --logo;
+    animation-name: show;
+    animation-range: 60% normal;
+  }
+</style>
 		</style>
 	</body>
 </html>
