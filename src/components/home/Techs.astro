@@ -7,17 +7,17 @@ import { techs } from '@/scripts/consts';
 
 <section class='section overflow-hidden relative'>
 	<h2
-		class='text-xl md:text-2xl font-medium after:skew-x-12 after:bg-white flex items-center after:w-12 after:-z-10 after:h-full after:absolute after:-right-3 text-center absolute bg-white z-10 h-full top-0 pr-5'>
+		class='text-xl md:text-2xl font-medium after:skew-x-12 after:bg-white flex items-center justify-center after:w-12 after:-z-10 after:h-full after:absolute after:-right-1 text-center absolute bg-white z-10 h-full top-0 pr-1'>
 		{t('techs.title')}
 	</h2>
 
 	<ul
-		class='flex justify-center items-center'
+		class='flex justify-center items-center mx-auto'
 		style={`--count: ${techs.length}`}>
 		{
 			techs.map((tech, i) => (
 				<li
-					class='p-2 rounded bg-gray-200 text-white  font-medium flex gap-3 items-center w-36 justify-center'
+					class='p-2 rounded bg-gray-200 text-white font-medium flex gap-3 items-center w-36 justify-center'
 					style={`background: ${tech.color}; --index: ${i}`}>
 					<img src={tech.icon} alt='' class='invert w-7' />
 					{tech.title}
@@ -32,6 +32,7 @@ import { techs } from '@/scripts/consts';
 		--speed: 20;
 		--inset: 0;
 		--outset: 0;
+		margin: 0 auto; /* Center the list */
 	}
 
 	ul:hover li {

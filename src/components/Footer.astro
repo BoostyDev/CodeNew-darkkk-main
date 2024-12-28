@@ -86,30 +86,7 @@ const pages = [
 			</nav>
 		</section>
 
-		<section>
-			<h5 class='text-[17px] font-medium mb-2'>Pages</h5>
-
-			<nav>
-				<ul class='flex flex-col gap-1'>
-					{
-						pages.map((page) => (
-							<li>
-								<a
-									class='hover:translate-x-1 hover:text-indigo-600 group transition-all inline-block opacity-85 hover:opacity-100 text-white'
-									href={page.link}>
-									{page.name}
-									<img
-										src={arrowIcon.src}
-										alt=''
-										class='w-5 max-w-none top-0 bottom-0 my-auto absolute right-0 translate-x-2 group-hover:translate-x-6 transition-all opacity-0 group-hover:opacity-100'
-									/>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</nav>
-		</section>
+	
 
 		<section class='flex justify-center'>
 			<LanguagePicker />

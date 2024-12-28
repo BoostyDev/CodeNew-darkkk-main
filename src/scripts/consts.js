@@ -9,7 +9,7 @@ import xIcon from "@/assets/social/x.svg"
 export const projects = {
 	en: [
 		{
-			tag: 'Web Development & Rebranding',
+			tag: 'Luca Meerbusch',
 			name: 'Luca Meerbusch',
 			description:
 				'We like to laugh and build strong relationships with the people that we work with.',
@@ -18,30 +18,30 @@ export const projects = {
 			gallery: true
 		},
 		{
-			tag: 'E-commerce and Management',
-			name: 'Red Feather Trading Post',
+			tag: 'Luca Meerbusch',
+			name: 'Luca Meerbusch',
 			description:
 				'We are quick to respond to messages and we are there when you need us most.',
-			img: '/projects/commerce.webp',
-			link: 'https://github.com/',
+			img: '/projects/italian.png',
+			link: 'https://luca-meerbusch.de',
 			
 		},
 		{
-			tag: 'Web Development',
-			name: 'Slate Electric',
+			tag: 'Luca Meerbusch',
+			name: 'Luca Meerbusch',
 			description:
 				'Saving you money to invest back in the business, and to promote team lunches and coffee chats.',
-			img: '/projects/electric.webp',
-			link: 'https://github.com/',
+			img: '/projects/luca2.png',
+			link: 'https://luca-meerbusch.de',
 			gallery: true
 		},
 		{
-			tag: 'Website Revamp',
-			name: 'SkyShot Management',
+			tag: 'Luca Meerbusch',
+			name: 'Luca Meerbusch',
 			description:
 				'We like to laugh and build strong relationships with the people that we work with.',
-			img: '/projects/skyshot.webp',
-			link: 'https://github.com/',
+			img: '/projects/luca3.png',
+			link: 'https://luca-meerbusch.de',
 			gallery: true
 		},
 	],
@@ -59,30 +59,30 @@ export const projects = {
 			
 		},
 		{
-			tag: 'E-Commerce und Management',
-			name: 'Red Feather Trading Post',
+			tag: 'Luca Meerbusch',
+			name: 'Luca Meerbusch',
 			description:
 				'Wir reagieren schnell auf Nachrichten und sind da, wenn Sie uns am meisten brauchen.',
-			img: '/projects/commerce.webp',
-			link: 'https://github.com/',
+			img: '/projects/luca2.png',
+			link: 'https://luca-meerbusch.de',
 			gallery: true
 		},
 		{
-			tag: 'Web Entwicklung',
-			name: 'Slate Electric',
+			tag: 'Luca Meerbusch',
+			name: 'Luca Meerbusch',
 			description:
 				'Sie sparen Geld, das Sie wieder in Ihr Unternehmen investieren und Team-Mittagessen und Kaffeeklatsch fördern können.',
-			img: '/projects/electric.webp',
-			link: 'https://github.com/',
+			img: '/projects/luca3.png',
+			link: 'https://luca-meerbusch.de',
 			gallery: true
 		},
 		{
-			tag: 'Web Entwicklung',
-			name: 'SkyShot Management',
+			tag: 'Luca Meerbusch',
+			name: 'Luca Meerbusch',
 			description:
 				'Wir lachen gerne und bauen starke Beziehungen zu den Menschen auf, mit denen wir arbeiten.',
-			img: '/projects/skyshot.webp',
-			link: 'https://github.com/',
+			img: '/projects/italian.png',
+			link: 'https://luca-meerbusch.de',
 			
 		},
 	],
@@ -109,7 +109,7 @@ export const socials = [
 export const services = {
 	en: [
 		{
-			title: 'Website Development',
+			title: 'Luca Meerbusch',
 			items: [
 				'Website Creation',
 				'UI/UX Design & Wireframing',
@@ -118,7 +118,7 @@ export const services = {
 			icon: websiteIcon.src,
 		},
 		{
-			title: 'Software Development',
+			title: 'Luca Meerbusch',
 			items: [
 				'Web App Development',
 				'Mobile App Development',
@@ -127,7 +127,7 @@ export const services = {
 			icon: softwareIcon.src,
 		},
 		{
-			title: 'Maintenance',
+			title: 'Luca Meerbusch',
 			items: [
 				'Hosting & Management',
 				'Optimization & Best Practices',
@@ -138,7 +138,7 @@ export const services = {
 	],
 	de: [
 		{
-			title: 'Webseitenentwicklung',
+			title: 'Luca Meerbusch',
 			items: [
 				'Website-Erstellung',
 				'UI/UX-Design und Wireframing',
@@ -147,7 +147,7 @@ export const services = {
 			icon: websiteIcon.src,
 		},
 		{
-			title: 'Software-Entwicklung',
+			title: 'Luca Meerbusch',
 			items: [
 				'Web-App-Entwicklung',
 				'Entwicklung mobiler Apps',
@@ -156,7 +156,7 @@ export const services = {
 			icon: softwareIcon.src,
 		},
 		{
-			title: 'Web- und Softwarewartung',
+			title: 'Luca Meerbusch',
 			items: [
 				'Hosting und Verwaltung',
 				'Optimierung und Best Practices',
