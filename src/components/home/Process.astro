@@ -33,9 +33,12 @@ import { process } from '@/scripts/consts';
 							data-index={i + 1}
 							class='rounded-xl group card-progress hover:border-indigo-600 transition-colors md:rounded-b-none md:border-b-0 appear-top flex flex-col justify-between gap-2 w-full mb-4 md:mb-0 mx-auto max-w-[28rem] border-2 border-slate-700/25 px-8 py-7'
 							style={`grid-column-start: ${i + 1}`}>
+
+							<!-- Aquí sigue la estructura de cada tarjeta -->
 							<div class='absolute opacity-10 group-hover:scale-100 transition-transform inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,var(--main-color)_1px,transparent_1px),linear-gradient(to_bottom,var(--main-color)_1px,transparent_1px)] bg-[size:2rem_1.8rem]' />
 
-							<span class='text-2xl  text-white font-medium'>
+							<!-- El número que será ocultado en móviles -->
+							<span class='text-2xl text-white font-medium'>
 								{(i + 1).toString().padStart(2, '0')}
 							</span>
 							<h4 class='text-3xl text-white'>{proces.title}</h4>
@@ -61,8 +64,11 @@ import { process } from '@/scripts/consts';
 							data-index={i + 1}
 							class='rounded-xl group card-progress hover:border-indigo-600 transition-colors md:rounded-t-none md:border-t-0 appear flex flex-col justify-between gap-2 w-full mb-4 md:mb-0 mx-auto max-w-[28rem] border-2 border-slate-700/25 px-8 py-7'
 							style={`grid-column-start: ${i + 1}`}>
+
+							<!-- Aquí sigue la estructura de cada tarjeta -->
 							<div class='absolute opacity-10 group-hover:scale-100 transition-transform inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,var(--main-color)_1px,transparent_1px),linear-gradient(to_bottom,var(--main-color)_1px,transparent_1px)] bg-[size:2rem_1.8rem]' />
 
+							<!-- El número que será ocultado en móviles -->
 							<span class=' text-white text-2xl font-medium'>
 								{(i + 1).toString().padStart(2, '0')}
 							</span>
@@ -79,5 +85,12 @@ import { process } from '@/scripts/consts';
 	progress[value]::-webkit-progress-value {
 		background-image: red;
 		border-radius: 100px;
+	}
+
+	/* Ocultar los números en dispositivos móviles */
+	@media (max-width: 768px) {
+		.card-progress span {
+			display: none;
+		}
 	}
 </style>

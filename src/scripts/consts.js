@@ -109,7 +109,7 @@ export const socials = [
 export const services = {
 	en: [
 		{
-			title: 'Luca Meerbusch',
+			title: 'Website Development',
 			items: [
 				'Website Creation',
 				'UI/UX Design & Wireframing',
@@ -118,7 +118,7 @@ export const services = {
 			icon: websiteIcon.src,
 		},
 		{
-			title: 'Luca Meerbusch',
+			title: 'Software Development',
 			items: [
 				'Web App Development',
 				'Mobile App Development',
@@ -127,7 +127,7 @@ export const services = {
 			icon: softwareIcon.src,
 		},
 		{
-			title: 'Luca Meerbusch',
+			title: 'Maintenance',
 			items: [
 				'Hosting & Management',
 				'Optimization & Best Practices',
@@ -141,26 +141,26 @@ export const services = {
 			title: 'Webseitenentwicklung',
 			items: [
 				'Website-Erstellung',
-				'UI/UX-Design und Wireframing',
-				'Website-Wartung',
+				'UI/UX Design',
+				'Custom-Websites',
 			],
 			icon: websiteIcon.src,
 		},
 		{
 			title: 'SEO-Optimierung',
 			items: [
-				'Web-App-Entwicklung',
-				'Entwicklung mobiler Apps',
-				'Entwicklung von Desktop-Apps',
+				'Suchmaschinenoptimierung',
+				'Ladezeiten-Optimierung',
+				'Content-Strategie',
 			],
 			icon: softwareIcon.src,
 		},
 		{
 			title: 'Support&Wartung',
 			items: [
-				'Hosting und Verwaltung',
-				'Optimierung und Best Practices',
-				'Iterationen und häufige Updates',
+				'Updates',
+				'Fehlerbehebung',
+				'Erweiterung',
 			],
 			icon: maintenanceIcon.src,
 		},

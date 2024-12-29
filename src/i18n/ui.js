@@ -62,7 +62,7 @@ export const ui = {
         'contact.form.message': 'Message',
         'contact.form.send': "Let's Talk",
 
-        'politics.title': 'Politics & Privacy', // Título general
+        'politics.title': 'Privacy Policy', // Título general
         'nav.legal': 'Legal Agreements',
 
         // Privacy Section
@@ -100,8 +100,8 @@ export const ui = {
         'errorpage.title': '404 Seite nicht gefunden',
         'errorpage.link': 'Zum Anfang',
 
-        'process': 'Schritt für Schritt zur erfolgreichen',
-        'process.description': 'Umsetzung ',
+        'process': 'Prozess',
+        'process.description': 'Schritt für Schritt zur erfolgreichen Umsetzung ',
 
         'techs.title': 'Unsere Tools',
 
