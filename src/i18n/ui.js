@@ -58,18 +58,18 @@ export const ui = {
         "nav.projects": "Projekte",
         "nav.contact": "Kontakt",
 
-        "home.description": "Auf der Suche nach einer Website, die perfekt zu deinem Unternehmen passt? CodeNew – die kreative Agentur für modernes Webdesign – entwickelt innovative und benutzerfreundliche Websites, die deine Marke ins Rampenlicht rücken. Mit CodeNew erreichst du mehr Sichtbarkeit, mehr Erfolg und begeisterte Kunden.",
-        "home.meeting": "Ein Meeting planen",
+        "home.description": "Auf der Suche nach einer Website, die perfekt zu deinem Unternehmen passt?      CodeNew – die kreative Agentur für modernes Webdesign – entwickelt innovative und benutzerfreundliche Websites, die deine Marke ins Rampenlicht rücken. Mit CodeNew erreichst du mehr Sichtbarkeit, mehr Erfolg und begeisterte Kunden.",
+        "home.meeting": "Kostenloses Beratungsgespräch",
         "errorpage.title": "404 Seite nicht gefunden",
         "errorpage.link": "Zum Anfang",
 
-        "process": "Verfahren",
-        "process.description": "Der CodeNew-Prozessansatz",
+        "process": "Schritt für Schritt zur erfolgreichen",
+        "process.description": "Umsetzung ",
 
         "techs.title": "Unsere Tools",
 
-        "services": "Dienstleistungen",
-        "services.description": "Zur Verbesserung Ihrer digitalen Präsenz.",
+        "services": "Unsere Dienstleistungen",
+        "services.description": "Zur Verbesserung Ihrer digitalen Präsenz",
         "services.webdev": "Webseitenentwicklung",
         "services.webdev.details": "Website-Erstellung, UI/UX Design, Custom-Websites",
         "services.seo": "SEO-Optimierung",
@@ -77,8 +77,8 @@ export const ui = {
         "services.support": "Support&Wartung",
         "services.support.details": "Updates, Fehlerbehebung, Erweiterung",
 
-        "callaction.title": "Haben Sie ein Projekt im Sinn?",
-        "callaction.link": "Lass uns zur Arbeit gehen",
+        "callaction.title": "Sie haben eine Idee?",
+        "callaction.link": "Wir machen Sie Realität",
 
         "projects": "Projekte",
         "projects.description": "Von der Idee zur Umsetzung",

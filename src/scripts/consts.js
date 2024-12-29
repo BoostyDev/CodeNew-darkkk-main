@@ -138,7 +138,7 @@ export const services = {
 	],
 	de: [
 		{
-			title: 'Luca Meerbusch',
+			title: 'Webseitenentwicklung',
 			items: [
 				'Website-Erstellung',
 				'UI/UX-Design und Wireframing',
@@ -147,7 +147,7 @@ export const services = {
 			icon: websiteIcon.src,
 		},
 		{
-			title: 'Luca Meerbusch',
+			title: 'SEO-Optimierung',
 			items: [
 				'Web-App-Entwicklung',
 				'Entwicklung mobiler Apps',
@@ -156,7 +156,7 @@ export const services = {
 			icon: softwareIcon.src,
 		},
 		{
-			title: 'Luca Meerbusch',
+			title: 'Support&Wartung',
 			items: [
 				'Hosting und Verwaltung',
 				'Optimierung und Best Practices',
@@ -225,20 +225,20 @@ export const process = {
 	],
 	de: [
 		{
-			title: 'Forschung',
-			description: 'Verstehen Sie Ihre Bedürfnisse und planen Sie.',
+			title: 'Analyse & Planung',
+			description: 'Wir verstehen deine Wünsche und erstellen den Grundstein für den Ansatz',
 		},
 		{
-			title: 'Konzept',
-			description: 'Wir machen Ihre Träume wahr.',
+			title: 'Kreation & Design',
+			description: 'Ideen visualisieren und ein ansprechendes Konzept entwickeln',
 		},
 		{
-			title: 'Entwicklung',
-			description: 'Lösungsentwicklung.',
+			title: 'Technische Umsetzung',
+			description: 'Entwicklung der Website mit modernster Technologie ',
 		},
 		{
-			title: 'Lieferung',
-			description: 'Lösung bereitgestellt und unterstützt.',
+			title: 'Abschluss & Optimierung',
+			description: 'Projektübergabe mit Tests, Feedback und fortlaufendem Support',
 		},
 	],
 };
