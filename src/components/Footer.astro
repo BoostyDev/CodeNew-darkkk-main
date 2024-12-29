@@ -32,8 +32,7 @@ const pages = [
 	},
 ];
 ---
-
-<footer class=' section sticky bottom-0 py-7 mb-5 flex gap-5 flex-col md:flex-row items-center md:items-start md:justify-between'>
+<footer class='section sticky bottom-0 py-7 mb-5 flex gap-5 flex-col md:flex-row items-center md:items-start md:justify-between'>
 	<a href={translatePath('/')}>
 		<img src={logo.src} alt='Logo' class='w-10' loading='lazy' />
 	</a>
@@ -41,7 +40,6 @@ const pages = [
 	<div class='flex flex-col md:flex-row gap-5 md:gap-14 text-white'>
 		<section>
 			<h5 class='text-[17px] font-medium mb-2'>Contact</h5>
-
 			<ul>
 				<li>
 					<a
@@ -86,7 +84,42 @@ const pages = [
 			</nav>
 		</section>
 
-	
+		<!-- Nueva columna: Acuerdos Legales -->
+		<section>
+			<h5 class='text-[17px] font-medium mb-2'>{t('nav.legal')}</h5>
+			<nav>
+				<ul class='flex flex-col gap-1'>
+					<li>
+						<a
+							class='hover:translate-x-1 hover:text-indigo-600 transition-all inline-block opacity-85 hover:opacity-100 group text-white'
+							href={translatePath('/politics')}
+							target='_self'
+							rel='noopener noreferrer'>
+							{t('politics.title')}
+							<img
+								src={arrowIcon.src}
+								alt=''
+								class='w-5 top-0 bottom-0 -rotate-45 my-auto absolute right-0 translate-x-2 group-hover:translate-x-6 transition-all opacity-0 group-hover:opacity-100'
+							/>
+						</a>
+					</li>
+					<li>
+						<a
+							class='hover:translate-x-1 hover:text-indigo-600 transition-all inline-block opacity-85 hover:opacity-100 group text-white'
+							href={translatePath('/imprint')}
+							target='_self'
+							rel='noopener noreferrer'>
+							{t('imprint.title')} {/* Enlace al Imprint */}
+							<img
+								src={arrowIcon.src}
+								alt=''
+								class='w-5 top-0 bottom-0 -rotate-45 my-auto absolute right-0 translate-x-2 group-hover:translate-x-6 transition-all opacity-0 group-hover:opacity-100'
+							/>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
 
 		<section class='flex justify-center'>
 			<LanguagePicker />
